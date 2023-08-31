@@ -1,4 +1,4 @@
-# HoloCure-AutoBackup
+# HoloCure AutoBackup - Save Your Progress!
 A script that automatically backs up your HoloCure save data. Also loads existing backup data automatically.
 
 # How to use:
