@@ -12,7 +12,7 @@ if not os.path.isfile("game_path.txt"):
 with open("game_path.txt", "r") as f: game_path = f.read()
 
 # if path 'game_path' is incorrect ("incorrect" meaning 'game_path' is neither a file nor HoloCure.exe itself), then throw an error window and terminate script
-if not os.path.isfile(game_path) or not "HoloCure.exe" in game_path:
+if not os.path.isfile(game_path) or "HoloCure.exe" not in game_path:
     ctypes.windll.user32.MessageBoxW(0, "Game not found. Please check 'game_path.txt'.", "Error", 16) # throw error window
     sys.exit() # terminate script
 
