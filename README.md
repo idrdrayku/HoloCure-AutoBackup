@@ -21,7 +21,7 @@ A script that automatically backs up your HoloCure save data. Also loads existin
 
            ![4](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/d3e66612-7523-4348-87c5-05d5e73fcc90)
 
-5. Set HoloCure's launch options in Steam with this command: ```"{path to holocure_autobackup.exe}" %command%```. (Note: The quotations marks around the path and ```%command%``` stay.)
+5. Set HoloCure's launch options in Steam with this command: ```"{path to holocure_autobackup.exe}"```. (Note: The quotations marks around the path stay.)
     - To determine your ```holocure_autobackup.exe``` path:
         1. Open the ```holocure_autobackup``` folder.
         2. Click the file explorer's address bar and it should change into a highlighted text. The highlighted text is the directory of HoloCure AutoBackup, and in this example, it is ```D:\Program Files\holocure_autobackup```.
@@ -29,7 +29,7 @@ A script that automatically backs up your HoloCure save data. Also loads existin
            ![5](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/099b16e0-dcc6-4562-a0eb-e3c0c3e7b5eb)
 
         3. Add ```\holocure_autobackup.exe``` to the end of your HoloCure AutoBackup directory, and the result will be your ```holocure_autobackup.exe``` path. In this example, ```D:\Program Files\holocure_autobackup``` becomes ```D:\Program Files\holocure_autobackup\holocure_autobackup.exe```.
-        4. Insert your ```holocure_autobackup.exe``` path into the ```"{path to holocure_autobackup.exe}" %command%``` command and set it as the launch option for HoloCure. In this example, ```"{path to holocure_autobackup.exe}" %command%``` becomes ```"D:\Program Files\holocure_autobackup\holocure_autobackup.exe" %command%```.
+        4. Insert your ```holocure_autobackup.exe``` path into the ```"{path to holocure_autobackup.exe}"``` command and set it as the launch option for HoloCure. In this example, ```"{path to holocure_autobackup.exe}"``` becomes ```"D:\Program Files\holocure_autobackup\holocure_autobackup.exe"```.
 
            ![6](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/d7607939-2474-4289-9c1d-db68c22a8df2)
 
