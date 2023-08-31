@@ -14,24 +14,30 @@ A script that automatically backs up your HoloCure save data. Also loads existin
 
         3. Click the file explorer's address bar and it should change into a highlighted text. The highlighted text is the Steam directory of HoloCure, and in this example, it is ```D:\SteamLibrary\steamapps\common\HoloCure```.
            
-           ![3](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/d1eeeb28-c266-4b69-a956-361fd5a93c73)
+           ![8](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/9d2f53f8-f0c3-4148-a49b-02e0ecc281e6)
+
+           ![9](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/acdb149d-22e2-4932-b716-12704b2b1562)
 
         4. Add ```\HoloCure.exe``` to the end of your HoloCure directory, and the result will be your ```HoloCure.exe``` path. In this example, ```D:\SteamLibrary\steamapps\common\HoloCure``` becomes ```D:\SteamLibrary\steamapps\common\HoloCure\HoloCure.exe```.
         5. Replace the contents of ```game_path.txt``` with your ```HoloCure.exe``` path and save it.
 
            ![4](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/d3e66612-7523-4348-87c5-05d5e73fcc90)
 
-5. Set HoloCure's launch options in Steam with this command: ```"{path to holocure_autobackup.exe}"```. (Note: The quotations marks around the path stay.)
-    - To determine your ```holocure_autobackup.exe``` path:
-        1. Open the ```holocure_autobackup``` folder.
-        2. Click the file explorer's address bar and it should change into a highlighted text. The highlighted text is the directory of HoloCure AutoBackup, and in this example, it is ```D:\Program Files\holocure_autobackup```.
+5. (OPTIONAL) Add ```HoloCure AutoBackup - Save Your Progress!``` to your Steam Library.
+    1. Click the ```Add a Game``` button on the bottom-left corner of the Steam window and then click ```Add a Non-Steam Game```.
 
-           ![5](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/099b16e0-dcc6-4562-a0eb-e3c0c3e7b5eb)
+       ![7](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/4c8d977d-c3c3-49be-a6c3-92cbc17eb933)
 
-        3. Add ```\holocure_autobackup.exe``` to the end of your HoloCure AutoBackup directory, and the result will be your ```holocure_autobackup.exe``` path. In this example, ```D:\Program Files\holocure_autobackup``` becomes ```D:\Program Files\holocure_autobackup\holocure_autobackup.exe```.
-        4. Insert your ```holocure_autobackup.exe``` path into the ```"{path to holocure_autobackup.exe}"``` command and set it as the launch option for HoloCure. In this example, ```"{path to holocure_autobackup.exe}"``` becomes ```"D:\Program Files\holocure_autobackup\holocure_autobackup.exe"```.
+    2. Click ```Browse``` and a file explorer should pop up.
 
-           ![6](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/d7607939-2474-4289-9c1d-db68c22a8df2)
+       ![10](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/158beb05-c25f-45fa-8fa4-7febe5c2c86d)
 
-        5. Close the window.
-6. Launch the game through Steam and it should work.
+    3. Access your ```holocure_autobackup``` folder using the file explorer, select ```HoloCure AutoBackup - Save Your Progress!.exe```, and click ```Open``` (or hit ```Enter```).
+
+       ![11](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/e078b537-df93-46ed-b47c-5a38c0be5020)
+
+    4. Click ```Add Selected Programs```.
+
+       ![12](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/4d95b89f-f955-45b4-a44b-d6501d643c9f)
+
+6. Run ```HoloCure AutoBackup - Save Your Progress!.exe``` or launch ```HoloCure AutoBackup - Save Your Progress!``` through Steam.
