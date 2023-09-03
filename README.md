@@ -40,4 +40,4 @@ A script that automatically backs up your HoloCure save data. Also loads backup 
            ![9](https://github.com/idrdrayku/HoloCure-AutoBackup/assets/143723408/acdb149d-22e2-4932-b716-12704b2b1562)
 
         4. Add ```\HoloCure.exe``` to the end of your HoloCure directory, and the result will be your ```HoloCure.exe``` path. In this example, ```D:\SteamLibrary\steamapps\common\HoloCure``` becomes ```D:\SteamLibrary\steamapps\common\HoloCure\HoloCure.exe```.
-7. ```HoloCure AutoBackup - Save Your Progress!``` will now be functional. From now on, launch ```HoloCure AutoBackup - Save Your Progress!``` instead of ```HoloCure``` itself.
+7. ```HoloCure AutoBackup - Save Your Progress!``` will now be functional. From now on, launch ```HoloCure AutoBackup - Save Your Progress!``` instead of the main game itself.
